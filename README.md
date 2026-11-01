@@ -1,6 +1,6 @@
 # 🧮 MCA Scientific Calculator
 
-A modern and responsive **Scientific Calculator Web Application** developed as an MCA AI/ML academic project using **HTML, CSS, JavaScript, and Python Flask**.
+A modern and responsive **Scientific Calculator Web Application** developed as an MCA GENERAL academic project using **HTML, CSS, JavaScript, and Python Flask**.
 
 The application provides basic arithmetic operations and advanced scientific functions through a clean, user-friendly interface.
 
@@ -49,9 +49,7 @@ MCA-Scientific-Calculator/
 Follow these steps to run the project on your computer.
 
 ### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Akshu1254/MCA-Scientific-Calculator.git
+https://github.com/rajababu21632-ctrl/Calculator/edit/main/README.md
 ```
 
 ### 2. Open the Project Folder
@@ -124,9 +122,9 @@ It also demonstrates the practical use of frontend technologies with a Python Fl
 
 ## 👨‍💻 Author
 
-**Akshit Sapehia**
+**RAJA BABU**
 
-MCA (AI/ML) Student
+MCA (Gneral) Student
 
 ## 📚 Academic Project
 
