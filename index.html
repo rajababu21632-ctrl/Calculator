@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MCA Scientific Calculator</title>
+
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <header class="header">
+            <div>
+                <p class="tag">MCA PROJECT</p>
+                <h1>Scientific Calculator</h1>
+                <p class="subtitle">Advanced Mathematical Calculator</p>
+            </div>
+
+            <button id="angleMode" class="mode-button">DEG</button>
+        </header>
+
+        <main class="calculator">
+
+            <div class="screen">
+                <div id="expression">Ready</div>
+                <input type="text" id="display" value="0" readonly>
+            </div>
+
+            <div class="buttons">
+
+                <button class="function" data-action="clear">AC</button>
+                <button class="function" data-action="delete">DEL</button>
+                <button class="function" data-value="(">(</button>
+                <button class="function" data-value=")">)</button>
+                <button class="operator" data-value="÷">÷</button>
+
+                <button class="function" data-value="sin(">sin</button>
+                <button class="function" data-value="cos(">cos</button>
+                <button class="function" data-value="tan(">tan</button>
+                <button class="function" data-value="√(">√</button>
+                <button class="operator" data-value="×">×</button>
+
+                <button class="function" data-value="log(">log</button>
+                <button class="function" data-value="ln(">ln</button>
+                <button class="function" data-value="π">π</button>
+                <button class="function" data-value="^">xʸ</button>
+                <button class="operator" data-value="-">−</button>
+
+                <button data-value="7">7</button>
+                <button data-value="8">8</button>
+                <button data-value="9">9</button>
+                <button class="function" data-value="!">x!</button>
+                <button class="operator" data-value="+">+</button>
+
+                <button data-value="4">4</button>
+                <button data-value="5">5</button>
+                <button data-value="6">6</button>
+                <button class="function" data-value="%">%</button>
+                <button class="operator" data-value="÷">÷</button>
+
+                <button data-value="1">1</button>
+                <button data-value="2">2</button>
+                <button data-value="3">3</button>
+                <button class="function" data-value="Ans">Ans</button>
+                <button class="operator" data-value="×">×</button>
+
+                <button class="zero" data-value="0">0</button>
+                <button data-value=".">.</button>
+                <button class="function" data-value="e">e</button>
+                <button class="equals" data-action="equals">=</button>
+
+            </div>
+
+            <p class="hint">
+                Enter = Calculate | Backspace = Delete | Esc = Clear
+            </p>
+
+        </main>
+
+        <footer>
+            <p>Scientific Calculator | MCA Project</p>
+            <p>Developed using HTML, CSS and JavaScript</p>
+        </footer>
+
+    </div>
+
+    <!-- JAVASCRIPT FILE LINK -->
+    <script src="./script.js"></script>
+
+</body>
+</html>
